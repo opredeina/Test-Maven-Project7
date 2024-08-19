@@ -14,7 +14,7 @@ public interface FruitsConfig extends Config {
   @Key("list")
   String[] getFruitsList();
 
-  @Key("array")
+  @Key("list")
   @Separator(";")
   @DefaultValue("orange;banana")
   String[] getFruitsArrayWihtSeparator();
